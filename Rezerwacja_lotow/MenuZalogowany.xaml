@@ -1,0 +1,150 @@
+﻿<Window x:Class="Rezerwacja_lotow.MenuZalogowany"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Menu Zalogowany" Height="500" Width="950"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="200" />
+        </Grid.ColumnDefinitions>
+
+      
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Adrian\Desktop\projekt\powitalna.png" Opacity="1" />
+        </Grid.Background>
+
+       
+        <TextBlock x:Name="UserNameTextBlock"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Margin="30,19,0,0"
+                   TextAlignment="Left"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Foreground="CornflowerBlue" Width="267" Grid.RowSpan="2" Grid.ColumnSpan="2" />
+
+        <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,40,0,0">
+            <Button x:Name="OtworzRezerwacjeBtn"
+                    Content="Wybierz lot"
+                    FontFamily="Century Gothic"
+                    Foreground="white"
+                    Background="CornflowerBlue"
+                    BorderThickness="0"
+                    Padding="10"
+                    Click="OtworzRezerwacje_Click"
+                    Width="170"
+                    Height="50"
+                    Margin="0,20,0,0">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button x:Name="SprawdzRezerwacjeBtn"
+                    Content="Moje Rezerwacje"
+                    FontFamily="Century Gothic"
+                    Foreground="white"
+                    Background="CornflowerBlue"
+                    BorderThickness="0"
+                    Padding="10"
+                    Click="SprawdzRezerwacje_Click"
+                    Width="170"
+                    Height="50"
+                    Margin="0,20,0,0">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,40,30,0">
+            <Button x:Name="Historia_rezerwacji"
+                    Content="Historia rezerwacji"
+                    FontFamily="Century Gothic"
+                    Foreground="white"
+                    Background="CornflowerBlue"
+                    BorderThickness="0"
+                    Padding="10"
+                    Click="HistoriaRezerwacji_Click"
+                    Width="170"
+                    Height="50"
+                    Margin="0,20,0,0">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button Name="PokazBiletyBtn"
+                    Content="Pokaż Bilety"
+                    FontFamily="Century Gothic"
+                    Foreground="white"
+                    Background="CornflowerBlue"
+                    BorderThickness="0"
+                    Padding="10"
+                    Click="PokazBilety_Click"
+                    Width="170"
+                    Height="50"
+                    Margin="0,20,0,0">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+
+        
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30">
+            <Button x:Name="Wyjdz"
+                    Content="Wyloguj"
+                    FontFamily="Century Gothic"
+                    Foreground="white"
+                    Background="#FFDC4E7B"
+                    BorderThickness="0"
+                    Padding="10"
+                    Click="Wyjdz_Click"
+                    Width="126"
+                    Margin="10,0,10,0">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button x:Name="ZmianaDanychBtn"
+                    Content="Zmień dane"
+                    FontFamily="Century Gothic"
+                    Foreground="white"
+                    Background="#FFDC4E7B"
+                    BorderThickness="0"
+                    Padding="10"
+                    Click="ZmianaDanych_Click"
+                    Width="126"
+                    Margin="10,0,10,0">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

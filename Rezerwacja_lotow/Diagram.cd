@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Rezerwacja_lotow.Rezerwacja">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAABAAAAEAAAEAAAAAgABAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Rezerwacja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rezerwacja_lotow.Pasazer">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAKAAAAAAAAAAAAAAAAAABAAAAAAAAQABAAA=</HashCode>
+      <FileName>Pasazer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rezerwacja_lotow.ObslugaBazy">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAABAEAAAAAgAAAAEgAAAAAAAAAA=</HashCode>
+      <FileName>ObslugaBazy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rezerwacja_lotow.Zalogowany">
+    <Position X="5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAEAAAAAAAAAAIAAAAABAAAAAAA=</HashCode>
+      <FileName>Zalogowany.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rezerwacja_lotow.ZmianaDanych">
+    <Position X="2.75" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIACAAAAAAAAAAACAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ZmianaDanych.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rezerwacja_lotow.MojeRezerwacje">
+    <Position X="2.75" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQCAIAAEAAAAABAIAAAAAAAACAAAAAA=</HashCode>
+      <FileName>MojeRezerwacje.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rezerwacja_lotow.MenuZalogowany">
+    <Position X="0.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAEAAgAAACQAAGAIAAA=</HashCode>
+      <FileName>MenuZalogowany.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rezerwacja_lotow.MainWindow">
+    <Position X="7.5" Y="10" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAIAAAAAAAAACAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rezerwacja_lotow.Lot">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIAAAIBAgAAAAAAgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Lot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rezerwacja_lotow.HistoriaRezerwacji">
+    <Position X="5.25" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAUAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HistoriaRezerwacji.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.158" />
+  </Class>
+  <Class Name="Rezerwacja_lotow.DostepneLoty">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAABAAIBAgAAAAAAgAAIAAAAAAAAAAA=</HashCode>
+      <FileName>DostepneLoty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rezerwacja_lotow.DodajPasazera">
+    <Position X="7.25" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DodajPasazera.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rezerwacja_lotow.BiletyWindow">
+    <Position X="0.5" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAACAAAEAAAAAhAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BiletyWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rezerwacja_lotow.Bilet">
+    <Position X="0.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAgAAAAIAEAIBQgAAgAgAgAAIgAAAAAAAAAA=</HashCode>
+      <FileName>Bilet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
